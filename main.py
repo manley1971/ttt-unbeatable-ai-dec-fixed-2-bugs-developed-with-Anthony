@@ -26,6 +26,8 @@ def squares_used(b):
   if count==9 and not is_winner(b):
     print("Draw!")
   return count
+  
+#could well combine drawing board
 def draw_board(b):
   print(b[0]+ " | "+ b[1]+" | "+b[2])
   print("----------")
